@@ -1,0 +1,22 @@
+.text-wrapper{
+	padding: 24px;
+	box-sizing: border-box;
+	line-height: 1.4;
+}
+
+hgroup{
+	text-align: left;
+    font-family: Verdana, sans-serif;
+    padding-left: 16px;
+    border-left: 12px solid #00c8d7;
+}
+.divider{
+	border: 2px solid #00c8d7;
+}
+hgroup h1{
+	font-size: 1.4em;
+}
+p{
+	text-align: justify;
+	margin: 1em 0 1em;
+}

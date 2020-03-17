@@ -1,0 +1,52 @@
+section{
+	width: 50%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+section figure{
+	height: 100%;
+	border: 1px solid #ddd;
+  	border-radius: 5px;
+  	background: white;
+  	position: relative;
+}
+section figure:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+section figure img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 80%;
+  opacity: 1;
+  transition: .5s ease;
+
+}
+section figure .middle{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	background-color: #00c8d7;
+	font-size: 1.3em;
+	color: white;
+	padding:6px 10px; 
+	border-radius: 20px;
+	cursor: pointer;
+}
+section figure:hover .middle {
+  opacity: 1;
+  z-index: 2;
+}
+section figure:hover img {
+  opacity: 0.3;
+}
+
+section figure figcaption{
+	height: 60px;
+	line-height: 60px;
+}

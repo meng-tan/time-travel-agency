@@ -1,0 +1,14 @@
+table{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 30px 0;
+}
+tbody tr:hover{
+	background:rgba(137,180,223,0.4);
+}
+th,td{
+	text-align: left;
+	padding: 18px 0;
+	border-bottom:1px solid rgba(41,51,57,0.2);
+
+}

@@ -1,0 +1,60 @@
+/*home page*/
+main{
+	background:white;
+}
+section{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+section aside{
+	width: 24.5%;
+	height: auto;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background:white;
+}
+section aside p{
+	display:inline-block;
+	padding: 12px;
+	border:4px double #fbedcc;
+	border-radius: 20%;
+}
+section aside p span{
+	padding-left: 18px;
+	background: url(../img/location.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+/*the double line in the aside*/
+.doubleline{
+	position: absolute;
+	left: 12.5%;
+	height:100%;
+	border-left: 4px double #fbedcc;
+	margin-left: -2px;
+}
+figure{
+	width: 670px;
+	height: auto;
+	float: right;
+	padding: 20px;
+}
+figure figcaption{
+	padding-bottom: 5px;
+}
+figure div{
+	width:100%;
+	box-shadow: 3px 3px 3px 5px rgba(0,0,0,0.15);
+	overflow: hidden;
+}
+figure div img{
+	width:100%;
+	transition: all .9s cubic-bezier(.19,1,.22,1);
+}
+/*zoom effect*/
+figure div img:hover{
+	transform: scale(1.1);
+}
